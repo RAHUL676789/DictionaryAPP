@@ -6,8 +6,7 @@ import { useState } from 'react';
 
 
 
-import {Secret} from "./Secret"
-let Keys = Secret();
+
 export default function SearchBox({updateInfo}){
 let [city,setCity] = useState("")
 let [error,setError] = useState(false);
