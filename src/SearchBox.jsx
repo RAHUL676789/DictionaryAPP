@@ -49,12 +49,13 @@ catch(e){
 let handleInputChange = (evt)=>{
     
     setCity(evt.target.value)
+    setError(false);
 }
     let handlesubmit = (evt)=>{
           evt.preventDefault();
           console.log(city);
           setCity("")
-          setError(false);
+         
     }
 
     return (
