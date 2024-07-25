@@ -54,6 +54,7 @@ let handleInputChange = (evt)=>{
           evt.preventDefault();
           console.log(city);
           setCity("")
+          setError(false);
     }
 
     return (
